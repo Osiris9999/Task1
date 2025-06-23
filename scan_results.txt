@@ -1,0 +1,27 @@
+# Nmap 7.97 scan initiated Mon Jun 23 20:00:05 2025 as: nmap -sS -oN scan_results.txt 192.168.18.69/24
+Nmap scan report for 192.168.18.1
+Host is up (0.010s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT   STATE    SERVICE
+21/tcp filtered ftp
+22/tcp filtered ssh
+23/tcp filtered telnet
+53/tcp open     domain
+80/tcp open     http
+MAC Address: F0:3F:95:9B:3C:DD (Huawei Technologies)
+
+Nmap scan report for Android.local (192.168.18.74)
+Host is up (0.0079s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE    SERVICE
+5060/tcp  filtered sip
+44501/tcp filtered unknown
+MAC Address: 46:E1:C4:2F:4D:64 (Unknown)
+
+Nmap scan report for archcraft.local (192.168.18.69)
+Host is up (0.0000060s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+# Nmap done at Mon Jun 23 20:01:51 2025 -- 256 IP addresses (3 hosts up) scanned in 105.65 seconds
