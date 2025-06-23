@@ -1,0 +1,22 @@
+Nmap and wireshark act as powerful utilities in scanning networks and finding vulnerabilities through open ports.
+
+Nmap is used for network discovery while Wireshark is used for packet analysis.
+
+Port analysis
+----------------
+
+21 - Used by the File Transfer Protocol[FTP] for client server connections and is crucial for file transfer.
+
+22 - Used for the Secure Shell protocol used for secure remote access of devices.
+
+23 - Used by the Telnet protocol which helps in obtaining remote access through command line interface. Very vulnerable since it transfers data in plain text.
+
+53 - Used for the Domain Name System protocol used for translating domain names into IP addresses.
+
+80 - Used for HTTP communication which is crucial for web browsing. It handles unencrypted data so this makes eavesdropping easier.
+
+5060 - Used for Session Initiation Protocol used in VoIP.
+
+Most common attacks against ssh include Brute-force, insecure ssh key login, man in the middle attacks.
+
+
